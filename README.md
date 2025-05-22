@@ -1,50 +1,92 @@
-# Welcome to your Expo app 👋
+# SmartDiet: Organização de Hábitos Alimentares em App Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 🍽️ Sobre o Projeto
+O SmartDiet é um aplicativo móvel inovador projetado para ajudar os usuários a organizar e manter hábitos alimentares saudáveis. Com uma interface intuitiva e funcionalidades inteligentes, o aplicativo visa simplificar o processo de monitoramento da alimentação, oferecendo ferramentas para registro de refeições, acompanhamento de metas nutricionais e visualização do progresso ao longo do tempo.
 
-## Get started
+Este projeto é um trabalho acadêmico focado em demonstrar a aplicação de tecnologias modernas para resolver desafios do dia a dia relacionados à saúde e bem-estar.
 
-1. Install dependencies
+## ✨ Funcionalidades (Sugestões)
+Registro de Refeições: Facilidade para adicionar o que foi consumido em cada refeição.
+
+Acompanhamento Nutricional: Visualização de calorias, macronutrientes e outros dados importantes.
+
+Definição de Metas: Capacidade de estabelecer e monitorar metas de saúde personalizadas.
+
+Histórico e Estatísticas: Gráficos e relatórios sobre o progresso alimentar.
+
+Lembretes Personalizados: Notificações para horários de refeições e ingestão de água.
+
+## 🚀 Como Começar
+Bem-vindo ao seu aplicativo Expo 👋
+
+Este é um projeto Expo criado com create-expo-app.
+
+1. Instale as dependências
+Certifique-se de ter o Node.js e o Expo CLI instalados em seu ambiente de desenvolvimento.
+
+Node.js: Baixe e instale o Node.js (versão LTS recomendada).
+
+Expo CLI: Instale globalmente via npm:
 
    ```bash
-   npm install
+   npm install -g expo-cli
    ```
+Após a instalação do Expo CLI, você pode instalar as dependências do projeto:
 
-2. Start the app
+```bash
+npm install
+```
+ou
 
-   ```bash
-   npx expo start
-   ```
+```bash
+yarn install
+```
 
-In the output, you'll find options to open the app in a
+2. Inicie o aplicativo
+Após a instalação das dependências, você pode iniciar o aplicativo:
+```bash
+npx expo start
+```
+
+Isso abrirá uma nova aba no seu navegador com o Expo Dev Tools. Na saída, você encontrará opções para abrir o aplicativo em um(a):
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo Go](https://expo.dev/go), um ambiente limitado para experimentar o desenvolvimento de aplicativos com Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Você pode começar a desenvolver editando os arquivos dentro do diretório app. Este projeto usa [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## 🔄 Obtenha um projeto novo
 
-When you're ready, run:
+Quando estiver pronto para começar do zero, execute:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Este comando moverá o código inicial para o diretório app-example e criará um diretório app em branco onde você poderá começar a desenvolver.
 
-## Learn more
+## 🛠️ Tecnologias Utilizadas
 
-To learn more about developing your project with Expo, look at the following resources:
+O SmartDiet é construído com as seguintes tecnologias:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+React Native: Framework para construção de aplicativos móveis nativos usando JavaScript e React.
 
-## Join the community
+Expo: Plataforma para desenvolvimento universal de aplicativos React Native, facilitando a configuração e o build.
 
-Join our community of developers creating universal apps.
+Expo Router: Para roteamento baseado em arquivos dentro do aplicativo.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+React Navigation: Para navegação entre as telas do aplicativo.
+
+TypeScript: Linguagem de programação que adiciona tipagem estática ao JavaScript.
+
+ESLint: Ferramenta para identificar e reportar padrões problemáticos encontrados no código JavaScript/TypeScript.
+
+## 📚 Saiba Mais
+
+Para saber mais sobre como desenvolver seu projeto com o Expo, consulte os seguintes recursos:
+
+- [Expo documentation](https://docs.expo.dev/): Aprenda os fundamentos ou aprofunde-se em tópicos avançados com nossos [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Siga um tutorial passo a passo onde você criará um projeto que roda em Android, iOS e na web.
+
