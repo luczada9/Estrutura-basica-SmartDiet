@@ -5,7 +5,7 @@ O SmartDiet é um aplicativo móvel inovador projetado para ajudar os usuários 
 
 Este projeto é um trabalho acadêmico focado em demonstrar a aplicação de tecnologias modernas para resolver desafios do dia a dia relacionados à saúde e bem-estar.
 
-## ✨ Funcionalidades (Sugestões)
+## ✨ Funcionalidades
 Registro de Refeições: Facilidade para adicionar o que foi consumido em cada refeição.
 
 Acompanhamento Nutricional: Visualização de calorias, macronutrientes e outros dados importantes.
